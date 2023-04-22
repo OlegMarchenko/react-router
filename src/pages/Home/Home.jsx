@@ -13,7 +13,6 @@ function Home() {
     .then(json => setData(json.results));
   }, []);
 
-  console.log(data);
 
 
   return (
