@@ -1,0 +1,22 @@
+
+
+header {
+  padding: 15px 0;
+  color: #61dafb;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+  li {
+    a {
+      color: #61dafb;
+      text-decoration: none;
+      &.active {
+        color: tomato;
+      }
+    }
+  }
+}
